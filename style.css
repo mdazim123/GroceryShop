@@ -1,0 +1,252 @@
+*{box-sizing: border-box; padding: 0; margin: 0;}
+#fstDiv
+{
+    background-color: rgb(233, 184, 21);height: 20vh;display: flex;
+    flex-direction: row;justify-content: space-between;align-items: center;
+}
+#LogoDedign
+{
+    height: 1.3em;width:2em; position: relative;top: .2em;
+}
+#fstLeftDiv
+{
+    position: relative;left: 7em;gap: .9em;width: 40em;
+    display: flex;flex-direction: column;justify-content: space-between;
+}
+#fastLeftUpperLink
+{
+    font-size: .7em;width: 30em;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;
+}
+#logo{font-size: 2em;font-weight: bold;}
+span{color: white;}
+#nevigation:hover
+{
+   color:rgb(73, 59, 59);
+}
+#search
+{
+    height:2.5em;width: 25em;border: none;
+    padding: 1em;border-radius: 3em; position: relative;left: 2em;
+}
+#search:hover
+{
+    transition: all 1s ease;background-color: rgb(238, 243, 245);color: black;
+}
+#fstRightDiv
+{
+    width: 25em;height:2.5em ;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;position: relative;right: 4em;
+}
+#SignInUp
+{
+    width: 12em;display: flex;flex-direction: row;justify-content: space-between;
+}
+#sign
+{padding: .3em;}
+#global
+{
+    font-size: 1.3em;
+    position: relative;
+    top: .3em;
+}
+#sign:hover
+{
+    color:white;background-color: rgb(116, 109, 109);transition: all 1s ease;
+    border-radius: .2em;
+}
+
+#light, #dark
+{
+    color: white;background-color: black;border: none;padding: .3em;
+}
+#light:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;
+    transition: all 1.5s ease;
+}
+#dark:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;transition: all 1.5s ease;
+}
+a
+{
+    color: black;text-decoration: none;font-size: 1.2em;
+}
+    /*.............. MARQUEEE...... */
+marquee
+    {
+        height: 5vh; padding: .3em; background-color: rgb(233, 236, 239);
+        color: black; margin: .2em 0em 0 0;
+    }
+/* ...........SECOND DIV........ */
+#scnddiv
+{
+    display: flex;flex-direction: row;justify-content: space-between;
+}
+/* ..........SECOND DIV LEFT............... */
+#divScndLeft
+{
+    height: 80vh; width: 25%;display: flex;position: relative;top: 10vh;
+    flex-direction:column; justify-content: space-around;align-items: center;
+}
+#AllLink
+{
+    background-color: rgb(235, 193, 55); height: 70vh; width: 95%; display: flex; flex-direction: column;
+    justify-content: space-around;align-items: baseline;border-radius: 1em;padding:.4em;
+}
+#demand
+{color: black; font-size: .9em;position: relative;left: 3em;}
+#demand:hover
+{color: white;}
+
+/* ..........SECOND DIV RIGHT.......... */
+#populer{text-align: center;margin: .2em;}
+#divSecndRight
+{height: 100vh;width: 75%;}
+#items
+{
+    display: flex;flex-direction: row;justify-content: space-around;align-items: center;
+    position: relative;top: 1em;
+}
+#productss
+{
+    height: 8em;width: 10em;transform: scale(.8);
+}
+#productss:hover
+{
+    transition: all 1s ease;transform: scale(1);
+}
+figcaption
+{
+    font-size: 1.2em;position: relative;left: 2em;
+}
+#orderButton
+{
+    font-size: .5em;border: none;padding: .5em;border-radius: .5em;
+    background-color:rgba(233, 232, 181, 0.877);position: relative;left: 3em;
+}
+#orderButton:hover
+{
+    transition: all 1s ease;
+    cursor: pointer; color: white;
+    background-color:whitesmoke;color: black;
+    
+}
+/* ............THIRD DIV......... */
+#thirdDiv{
+    height: 70vh;width: 100%;
+}
+#discount
+{
+    margin: auto;position: relative;
+    left: 15%;top: 15vh;height: 45vh;width: 70%;
+}
+/* .........DIV Five........ */
+#divFiveDetails{
+    height: 100vh;display: flex;flex-direction: row;
+    justify-content: space-around;align-items: center;
+}
+#divFiveSection
+{
+    width: 30%; height: 70vh;background-color: rgb(245, 247, 250);
+}
+#shopEarnDealCare,#details {padding: 1em;text-align: center;
+}
+#divFiveImg{
+    height: 40vh;width: 100%;position: relative;top: 10vh;
+}
+
+/* ..........DIV SIX......... */
+#divSix
+{
+    height: 20vh;width: 100%;
+}
+#payType{
+    display: flex;flex-direction: row;justify-content: space-around;
+    align-items: center;width: 70%;position: relative;left:15%;top: 5vh;
+}
+#payBll{
+    height: 10vh;
+}
+/* ..........DIV Six......... */
+#divSix
+{
+    height: 70vh;width: 100%;
+}
+#divSixFourBlock{
+    width: 50%;display: flex;flex-direction: row;
+    justify-content: space-around;align-items: center;
+}
+#divSixBlock{
+    background-color:aliceblue;margin-top: 2em;
+    position: relative;left: 50%;padding: 2em;
+    width: 45%;border-radius: 1em;
+}
+#DivSixBlockP
+{margin-top:1em ;}
+#SixDivIcon{position: relative;left: 1em;}
+/* ...........DIV SEVEN......... */
+#divSeven{
+    height: 60vh;
+}
+#DivSevenTwoBlock{
+    display: flex;flex-direction: row;justify-content: space-between;
+    align-items: center;width: 80%;height: 40vh;margin-top: 5vh;position: relative;left: 5%;
+}
+#divSevenBlock
+{
+    height: 35vh;position: relative;left: 10%;border-radius: 2em;
+    width: 45%;background-color: aliceblue;
+    display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+}
+#divSevenHP
+{
+    padding: 2em;
+}
+#divSevenImg
+{
+    height: 35vh;width: 50%;border-radius: 0em 1em 1em 0em;
+}
+#DivSevenBlockP{margin-top: 1em;}
+#divSevenBtn{
+    margin-top: 2em;width: 80%;height: 4vh;border-radius: 1em;
+    background-color: rgb(237, 130, 30); color: white;border: none;
+}
+
+
+
+
+
+
+/* .........DIV Eight.... */
+#divEight
+{
+    height: 30vh;
+}
+#divAbout{
+    height: 30vh;
+    display: flex;flex-direction:row;justify-content: space-around;
+    background-color: rgb(245, 247, 250);;padding: 1em;
+}
+#divaboutGroceryStore
+{
+    display: flex;
+    flex-direction: column;margin-top: 1em;
+}
+#terms{
+    margin-top: .4em;color: rgb(87, 80, 80);
+}
+#terms:hover{
+    color: black;
+}
+
+/* .........FOOTER ....... */
+footer
+{
+    padding: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#copyName{color: darkgray;}

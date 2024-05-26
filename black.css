@@ -1,0 +1,98 @@
+*{box-sizing: border-box; padding: 0; margin: 0;}
+/* .........Main DIV.......... */
+#divSection
+{
+    display: flex;flex-direction: row;justify-content: space-around;
+    align-items: center;
+}
+/* ..........IMAGE.......... */
+#tshirtImg
+{
+    height: 20em;width: 20em;border: .13em dotted black;
+    position: relative;top: 8em; left: 5em;
+}
+img
+{
+    height: 15em;width: 15em;
+    position: relative;top: 2em;left: 2.5em;
+}
+img:hover
+{
+    transition: all 1.2s ease;transform: scale(1.5);cursor: pointer;
+}
+figcaption
+{
+    position: relative;top: 5em;font-size: large;font-weight:bold ;
+}
+/* ...........Order Place Section.......... */
+#PlaceOderSection
+{
+    height: 60vh;padding: .5em;
+    position: relative;top:8em; right: 10em;
+}
+/* .......PRICE......... */
+#price
+{font-size:2em;font-weight: bold; position: relative;
+top: 2em;}
+#sizeInputSection
+{
+    position: relative;top: 5em;
+}
+#size
+{font-size:1.4em;font-weight: bold;}
+form
+{display: flex; flex-direction: row;gap: .2em;}
+/* .......COLOR NAME....... */
+#Color
+{
+    position: relative;top: 6em;
+}
+#clrName
+{
+    font-size: large;font-weight: bold;
+}
+/* .......Product Quantity......... */
+#ProductQuantity
+{
+   position: relative;top: 8em;
+}
+#InputField
+{
+    text-align: center;width: 5em;padding: .1em;
+}
+#quantity
+{
+    position: relative;bottom: 1em;
+}
+#increment, #decrement
+{
+    padding: .1em; width: 3em;background-color: green;
+    border: none;
+}
+button:disabled
+{
+    cursor: no-drop;background-color: red;
+}
+/* .........ORDER BUTTON..... */
+#OrderButton
+{
+    margin-top: 10em;
+}
+#ConfirmOrder
+{
+    width: 10em; height: 3em;border: none;color: white;
+    background-color: rgb(0, 149, 255);border-radius: .4em;
+}
+#ConfirmOrder:hover
+{
+    background-color: rgb(2, 120, 203);
+}
+#AddCart
+{
+    width: 10em;height: 3em;border: none;color: white;
+    background-color: rgb(255, 111, 0);border-radius: .4em;
+}
+#AddCart:hover
+{
+    background-color: rgb(196, 86, 1);
+}
